@@ -25,12 +25,17 @@
     "node": "16.19.1"
   },
   "devDependencies": {
-    "typescript": "^5.0.4",
     "@lwc/engine-dom": "^2.45.1",
+    "@lwc/rollup-plugin": "^2.45.1",
     "@lwc/synthetic-shadow": "^2.45.1",
+    "@lwc/wire-service": "^2.45.1",
     "@lwrjs/client-modules": "^0.9.4",
     "@lwrjs/loader": "^0.9.4",
     "@lwrjs/o11y": "^0.9.4",
-    "@lwrjs/router": "^0.9.4"
+    "@lwrjs/router": "^0.9.4",
+    "@rollup/plugin-replace": "^5.0.2",
+    "rollup": "^3.21.5",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.5"
   }
 }

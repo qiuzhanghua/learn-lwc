@@ -22,7 +22,7 @@ src/
           └── app/
               ├── app.css
               ├── app.html
-              └── app.ts
+              └── app.js
 lwr.config.json         // lwr configuration
 package.json            // npm packaging configuration
 ```
