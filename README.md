@@ -34,26 +34,26 @@ The LWR server is configured in `lwr.config.json`, at the root of the project. T
 ```json
 // lwr.config.json
 {
-    "lwc": { "modules": [{ "dir": "$rootDir/src/modules" }] },
-    "routes": [
-        {
-            "id": "example",
-            "path": "/",
-            "rootComponent": "example/app"
-        }
-    ],
-    "assets": [
-        {
-            "alias": "assetsDir",
-            "dir": "$rootDir/src/assets",
-            "urlPath": "/public/assets"
-        },
-        {
-            "alias": "favicon",
-            "file": "$rootDir/src/assets/favicon.ico",
-            "urlPath": "/favicon.ico"
-        }
-    ]
+  "lwc": { "modules": [{ "dir": "$rootDir/src/modules" }] },
+  "routes": [
+    {
+      "id": "example",
+      "path": "/",
+      "rootComponent": "example/app"
+    }
+  ],
+  "assets": [
+    {
+      "alias": "assetsDir",
+      "dir": "$rootDir/src/assets",
+      "urlPath": "/public/assets"
+    },
+    {
+      "alias": "favicon",
+      "file": "$rootDir/src/assets/favicon.ico",
+      "urlPath": "/favicon.ico"
+    }
+  ]
 }
 ```
 
