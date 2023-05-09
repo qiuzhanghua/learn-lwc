@@ -1,0 +1,36 @@
+{
+  "name": "learn-lwc",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf node_modules __lwr_cache__ site",
+    "dev": "lwr dev",
+    "dev:compat": "lwr dev --mode compat",
+    "build": "lwr build --clean",
+    "build:prod-compat": "lwr build --clean --mode prod-compat",
+    "start": "lwr start",
+    "stage": "pnpm build && pnpm start",
+    "stage:prod-compat": "pnpm build:prod-compat && pnpm start"
+  },
+  "dependencies": {
+    "lwc": "2.45.1",
+    "lwr": "0.9.4"
+  },
+  "engines": {
+    "node": ">=16.0.0 <20"
+  },
+  "volta": {
+    "node": "16.19.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4",
+    "@lwc/engine-dom": "^2.45.1",
+    "@lwc/synthetic-shadow": "^2.45.1",
+    "@lwrjs/client-modules": "^0.9.4",
+    "@lwrjs/loader": "^0.9.4",
+    "@lwrjs/o11y": "^0.9.4",
+    "@lwrjs/router": "^0.9.4"
+  }
+}
