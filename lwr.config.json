@@ -2,9 +2,14 @@
   "lwc": { "modules": [{ "dir": "$rootDir/src/modules" }] },
   "routes": [
     {
-      "id": "example",
+      "id": "home",
       "path": "/",
-      "rootComponent": "example/app"
+      "rootComponent": "example/home"
+    },
+    {
+      "id": "hello",
+      "path": "/hello",
+      "rootComponent": "example/hello"
     }
   ],
   "assets": [

@@ -22,7 +22,7 @@ src/
           └── app/
               ├── app.css
               ├── app.html
-              └── app.ts
+              └── home.ts
 lwr.config.json         // lwr configuration
 package.json            // npm packaging configuration
 ```
@@ -39,7 +39,7 @@ The LWR server is configured in `lwr.config.json`, at the root of the project. T
     {
       "id": "example",
       "path": "/",
-      "rootComponent": "example/app"
+      "rootComponent": "example/home"
     }
   ],
   "assets": [
