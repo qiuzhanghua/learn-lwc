@@ -19,10 +19,6 @@
     "unit": "jest",
     "unit:watch": "jest --watch"
   },
-  "dependencies": {
-    "lwc": "2.45.1",
-    "lwr": "0.9.4"
-  },
   "engines": {
     "node": ">=16.0.0 <20"
   },
@@ -52,6 +48,8 @@
     "trailingComma": "all"
   },
   "devDependencies": {
+    "lwc": "2.45.1",
+    "lwr": "0.9.4",
     "@lwc/engine-dom": "^2.45.1",
     "@lwc/jest-preset": "^11.8.0",
     "@lwc/jest-resolver": "^11.8.0",
